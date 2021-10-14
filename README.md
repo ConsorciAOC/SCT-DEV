@@ -1,5 +1,5 @@
 # SCT-DEV
-Documentació d'integració del projecte de direcció electrònica vial del servei català de trànsit
+Documentació d'integració del projecte de direcció electrònica vial del servei català de trànsit    
 
 ### 1. Introducció
 Aquest document detalla la missatgeria associada al servei de consulta de credencials per DNI  del Servei de Credencials de Servei Català de Trànsit (en endavant SCT).
