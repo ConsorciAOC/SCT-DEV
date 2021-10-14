@@ -24,3 +24,5 @@ CONSULTA_CREDENCIALS | PROVES | NOTIFACTADM
 CONSULTA_CREDENCIALS_LOT | PROVES | NOTIFACTADM
 
 El servei de lots funciona assíncronament. L’esquema de comunicació és el que segueix:
+
+![Esquema de comunicació](https://github.com/ConsorciAOC/SCT-DEV/blob/main/esquema.png)
