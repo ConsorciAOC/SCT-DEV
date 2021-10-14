@@ -1,0 +1,80 @@
+<ns:procesaResponse xmlns:ns="http://www.openuri.org/">
+	<res:Respuesta xmlns:res="http://gencat.net/scsp/esquemes/respuesta">
+		<res:Atributos>
+			<res:CodigoCertificado>CONSULTA_CREDENCIALS</res:CodigoCertificado>
+			<res:CodigoProducto>ENOTUM</res:CodigoProducto>
+			<res:IdPeticion>CU1_1321258335601</res:IdPeticion>
+			<res:IdSolicitanteOriginal/>
+			<res:NomSolicitanteOriginal/>
+			<res:NumElementos>1</res:NumElementos>
+			<res:TimeStamp>2011-11-14T09:12:29.759+01:00</res:TimeStamp>
+			<res:Emisor>
+				<res:NifEmisor>Q2816003D</res:NifEmisor>
+				<res:NombreEmisor>Direccion General de Trafico</res:NombreEmisor>
+			</res:Emisor>
+			<res:Estado>
+				<res:CodigoEstado>0003</res:CodigoEstado>
+				<res:CodigoEstadoSecundario/>
+				<res:LiteralError>OK</res:LiteralError>
+				<res:TiempoEstimadoRespuesta>0</res:TiempoEstimadoRespuesta>
+			</res:Estado>
+			<res:Funcionario>
+				<res:NombreCompletoFuncionario>EXEMPLE</res:NombreCompletoFuncionario>
+				<res:NifFuncionario>12345678Z</res:NifFuncionario>
+				<res:EMailFuncionario>mail@funcionario.org</res:EMailFuncionario>
+				<res:CertificadoDigital>ZQ==</res:CertificadoDigital>
+			</res:Funcionario>
+		</res:Atributos>
+		<res:Transmisiones>
+			<res:TransmisionDatos>
+				<res:DatosGenericos>
+					<res:Emisor>
+						<res:NombreEmisor>Direccion General de Trafico</res:NombreEmisor>
+						<res:NifEmisor>Q2816003D</res:NifEmisor>
+					</res:Emisor>
+					<res:Solicitante>
+						<res:IdentificadorSolicitante>801930008</res:IdentificadorSolicitante>
+						<res:NombreSolicitante>Ajuntament de Barcelona</res:NombreSolicitante>
+						<res:Finalidad>TEST</res:Finalidad>
+						<res:Consentimiento>Si</res:Consentimiento>
+						<res:Funcionario>
+							<res:NombreCompletoFuncionario>EXEMPLE</res:NombreCompletoFuncionario>
+							<res:NifFuncionario>12345678Z</res:NifFuncionario>
+							<res:EMailFuncionario>mail@funcionario.org</res:EMailFuncionario>
+							<res:CertificadoDigital>Y3Vt</res:CertificadoDigital>
+						</res:Funcionario>
+					</res:Solicitante>
+					<res:Titular>
+						<res:TipoDocumentacion>NIF</res:TipoDocumentacion>
+						<res:Documentacion>12345678Z</res:Documentacion>
+						<res:NombreCompleto>Pere Parra Polser</res:NombreCompleto>
+						<res:Nombre>Pere</res:Nombre>
+						<res:Apellido1>Parra</res:Apellido1>
+						<res:Apellido2>Polser</res:Apellido2>
+					</res:Titular>
+					<res:Transmision>
+						<res:CodigoCertificado>CONSULTA_CREDENCIALS</res:CodigoCertificado>
+						<res:FechaGeneracion/>
+						<res:IdSolicitud>1</res:IdSolicitud>
+						<res:IdTransmision>TRANSMISION</res:IdTransmision>
+					</res:Transmision>
+				</res:DatosGenericos>
+				<res:DatosEspecificos>
+					<dev:RespostaConsultaCredencials xmlns:dev="http://www.aoc.cat/sct/dev">
+						<dev:Correus>
+							<dev:Correu>jaguilar.ibermatica@dgt.es</dev:Correu>
+							<dev:Correu>fjmartin.steria@dgt.es</dev:Correu>
+						</dev:Correus>
+						<dev:Telefons>
+							<dev:Telefon>659838664</dev:Telefon>
+						</dev:Telefons>
+						<dev:Resultat>
+							<dev:CodiResultat>0</dev:CodiResultat>
+							<dev:Descripcio>Petició processada correctament</dev:Descripcio>
+						</dev:Resultat>
+					</dev:RespostaConsultaCredencials>
+				</res:DatosEspecificos>
+			</res:TransmisionDatos>
+		</res:Transmisiones>
+	</res:Respuesta>
+</ns:procesaResponse>

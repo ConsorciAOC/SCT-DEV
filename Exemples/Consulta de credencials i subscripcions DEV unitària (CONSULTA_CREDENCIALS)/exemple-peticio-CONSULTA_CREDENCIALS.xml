@@ -1,0 +1,76 @@
+<pet:Peticion>
+	<pet:Atributos>
+		<pet:IdPeticion>CU1_${=(long)(System.currentTimeMillis())}</pet:IdPeticion>
+		<pet:NumElementos>1</pet:NumElementos>
+		<pet:TimeStamp/>
+		<pet:CodigoCertificado>CONSULTA_CREDENCIALS</pet:CodigoCertificado>
+		<pet:CodigoProducto>ENOTUM</pet:CodigoProducto>
+		<!--Optional:-->
+		<pet:DatosAutorizacion>
+			<pet:IdentificadorSolicitante>801930008</pet:IdentificadorSolicitante>
+			<pet:NombreSolicitante>Ajuntament de Barcelona</pet:NombreSolicitante>
+			<pet:Finalidad>TEST</pet:Finalidad>
+		</pet:DatosAutorizacion>
+		<!--Optional:-->
+		<pet:Emisor>
+			<pet:NifEmisor>Q2816003D</pet:NifEmisor>
+			<pet:NombreEmisor>Direccion General de Trafico</pet:NombreEmisor>
+		</pet:Emisor>
+		<!--Optional:-->
+		<pet:Funcionario>
+			<!--Optional:-->
+			<pet:NombreCompletoFuncionario>EXEMPLE</pet:NombreCompletoFuncionario>
+			<!--Optional:-->
+			<pet:NifFuncionario>12345678Z</pet:NifFuncionario>
+			<!--Optional:-->
+			<pet:EMailFuncionario>mail@funcionario.org</pet:EMailFuncionario>
+			<!--Optional:-->
+			<pet:CertificadoDigital>ZQ==</pet:CertificadoDigital>
+		</pet:Funcionario>
+	</pet:Atributos>
+	<pet:Solicitudes>
+		<!--1 or more repetitions:-->
+		<pet:SolicitudTransmision>
+			<pet:DatosGenericos>
+				<pet:Emisor>
+					<pet:NifEmisor>Q2816003D</pet:NifEmisor>
+					<pet:NombreEmisor>Direccion General de Trafico</pet:NombreEmisor>
+				</pet:Emisor>
+				<pet:Solicitante>
+					<pet:IdentificadorSolicitante>801930008</pet:IdentificadorSolicitante>
+					<pet:NombreSolicitante>Ajuntament de Barcelona</pet:NombreSolicitante>
+					<pet:Finalidad>TEST</pet:Finalidad>
+					<pet:Consentimiento>Si</pet:Consentimiento>
+					<!--Optional:-->
+					<pet:Funcionario>
+						<!--Optional:-->
+						<pet:NombreCompletoFuncionario>EXEMPLE</pet:NombreCompletoFuncionario>
+						<!--Optional:-->
+						<pet:NifFuncionario>12345678Z</pet:NifFuncionario>
+						<!--Optional:-->
+						<pet:EMailFuncionario>mail@funcionario.org</pet:EMailFuncionario>
+						<!--Optional:-->
+						<pet:CertificadoDigital>Y3Vt</pet:CertificadoDigital>
+					</pet:Funcionario>
+				</pet:Solicitante>
+				<!--Optional:-->
+				<pet:Transmision>
+					<pet:CodigoCertificado>CONSULTA_CREDENCIALS</pet:CodigoCertificado>
+					<pet:IdSolicitud>1</pet:IdSolicitud>
+					<!--Optional:-->
+					<pet:IdTransmision>TRANSMISION</pet:IdTransmision>
+				</pet:Transmision>
+				<pet:Titular>
+					<pet:TipoDocumentacion>NIF</pet:TipoDocumentacion>
+					<pet:Documentacion>12345678Z</pet:Documentacion>
+					<pet:NombreCompleto>Pere Parra Polser</pet:NombreCompleto>
+					<pet:Nombre>Pere</pet:Nombre>
+					<pet:Apellido1>Parra</pet:Apellido1>
+					<pet:Apellido2>Polser</pet:Apellido2>
+				</pet:Titular>
+			</pet:DatosGenericos>
+			<!--Optional:-->
+			<pet:DatosEspecificos/>
+		</pet:SolicitudTransmision>
+	</pet:Solicitudes>
+</pet:Peticion>
