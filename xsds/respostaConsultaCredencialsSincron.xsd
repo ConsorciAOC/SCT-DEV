@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp2 (http://www.altova.com) by Sergio Figueras (Consorci Administració Oberta de Catalunya) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.aoc.cat/sct/dev" targetNamespace="http://www.aoc.cat/sct/dev" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="RespostaConsultaCredencials">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Correus" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Correu" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Telefons" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Telefon" type="xs:string" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Resultat">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CodiResultat" type="xs:string"/>
+							<xs:element name="Descripcio" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
