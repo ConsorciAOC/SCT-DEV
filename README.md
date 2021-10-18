@@ -99,3 +99,7 @@ DEV9009 | L'emissor final ha reportat un error relacionat amb la petició | L’
 DEV9010 | El NIF informat per a la recerca és incorrecte. | El format de NIF no és correcte.
 
 *Nota : El servei no valida la correctesa dels documents facilitats. En cas que el document sigui incorrecte, es retornarà el corresponent codi generat pel servei DEV.*
+
+Adjuntem link on trobareu exemples de peticions:
+* [Petició i resposta CONSULTA_CREDENCIALS_LOT](https://github.com/ConsorciAOC/SCT-DEV/tree/main/Exemples/Consulta%20de%20credencials%20i%20subscripcions%20DEV%20per%20lots%20(CONSULTA_CREDENCIALS_LOT))
+* [Petició i resposta CONSULTA_CREDENCIALS](https://github.com/ConsorciAOC/SCT-DEV/tree/main/Exemples/Consulta%20de%20credencials%20i%20subscripcions%20DEV%20unit%C3%A0ria%20(CONSULTA_CREDENCIALS))
