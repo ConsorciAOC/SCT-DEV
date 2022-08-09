@@ -19,7 +19,11 @@ Documentació d'integració del projecte de direcció electrònica vial del serv
 ### 1. Introducció <a name="1"></a>
 Aquest document detalla la missatgeria associada al servei de consulta de credencials per DNI  del Servei de Credencials de Servei Català de Trànsit (en endavant SCT).
 Per poder realitzar la integració cal conèixer prèviament la següent documentació:
-* Document d’Especificació de missatgeria pel consum de productes de la plataforma PCI del Consorci AOC.
+
+- [Document de Missatgeria Genèrica de la PCI del Consorci AOC.][PCI]
+
+[PCI]:https://github.com/ConsorciAOC/PCI
+
 
 ### 2. Transmissions de dades disponibles <a name="2"></a>
 Les operacions disponibles a través del servei són les que es presenten a continuació:
