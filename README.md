@@ -15,6 +15,7 @@ Documentació d'integració del projecte de direcció electrònica vial del serv
 			* [3.2.1.2 Dades específiques](#3.2.1.2)
         * [3.2.2 Resposta – dades específiques](#3.2.2)
 - [4. Codis de resposta](#4) 
+- [5. Casos de prova](#5) 
 
 ### 1. Introducció <a name="1"></a>
 Aquest document detalla la missatgeria associada al servei de consulta de credencials per DNI  del Servei de Credencials de Servei Català de Trànsit (en endavant SCT).
@@ -122,3 +123,12 @@ DEV9010 | El NIF informat per a la recerca és incorrecte. | El format de NIF no
 Adjuntem link on trobareu exemples de peticions:
 * [Petició i resposta CONSULTA_CREDENCIALS_LOT](https://github.com/ConsorciAOC/SCT-DEV/tree/main/Exemples/Consulta%20de%20credencials%20i%20subscripcions%20DEV%20per%20lots%20(CONSULTA_CREDENCIALS_LOT))
 * [Petició i resposta CONSULTA_CREDENCIALS](https://github.com/ConsorciAOC/SCT-DEV/tree/main/Exemples/Consulta%20de%20credencials%20i%20subscripcions%20DEV%20unit%C3%A0ria%20(CONSULTA_CREDENCIALS))
+
+
+### 5. Casos de prova <a name="5"></a>
+
+Adjuntem els casos que es van predefinir per l'entorn de PRE:
+
+* 12345678Z -> 0003 - Petició processada correctament. (Resposta: prova@dgt.es, 619276412)
+* 70134616A -> 9999 - No està donat d'alta en el cens.
+* Resta de casos -> 9997 - Petició amb errors.
